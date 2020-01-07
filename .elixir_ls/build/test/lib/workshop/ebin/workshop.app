@@ -18,6 +18,8 @@
                         'Elixir.WorkshopWeb.PageView',
                         'Elixir.WorkshopWeb.Router',
                         'Elixir.WorkshopWeb.Router.Helpers',
+                        'Elixir.WorkshopWeb.UploadController',
+                        'Elixir.WorkshopWeb.UploadView',
                         'Elixir.WorkshopWeb.UserSocket']},
               {registered,[]},
               {vsn,"0.1.0"},

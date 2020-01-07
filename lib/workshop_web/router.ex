@@ -16,6 +16,7 @@ defmodule WorkshopWeb.Router do
   scope "/", WorkshopWeb do
     pipe_through :browser
 
+    resources "/uploads", UploadController, only: [:index, :new, :create, :show]
     get "/", PageController, :index
   end
 
